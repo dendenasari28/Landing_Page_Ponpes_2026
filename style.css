@@ -4,3 +4,20 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+/*  navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 6%;
+  background-color: #fff;
+}
+nav .logo {
+  display: flex;
+}
+nav .logo img {
+  width: 200px;
+  height: 100px;
+  margin-right: 10px;
+}
