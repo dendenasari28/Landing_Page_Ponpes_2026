@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&family=Libertinus+Math&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* 
+font-family: "Saira Condensed", sans-serif;
+font-family: "Roboto", sans-serif;
+ font-family: "Libertinus Math", system-ui;
+  font-family: "Asap Sharp", sans-serif;
+*/
+
 * {
   padding: 0;
   margin: 0;
@@ -20,4 +29,19 @@ nav .logo img {
   width: 200px;
   height: 100px;
   margin-right: 10px;
+}
+nav .menus {
+  width: 50%;
+}
+nav .menus .menu {
+  display: flex;
+  gap: 30px;
+}
+nav .menus .menu a {
+  font-family: "Asap Sharp", sans-serif;
+  color: #333;
+}
+.menu a span {
+  color: rgb(5, 186, 5);
+  font-weight: 500;
 }
