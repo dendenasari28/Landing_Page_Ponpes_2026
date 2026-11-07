@@ -64,23 +64,43 @@ nav .tbl {
   gap: 10px;
   background-color: var(--primary);
   color: white;
-  font-family:"asap sharp",sans-serif;
+  font-family: "asap sharp", sans-serif;
   cursor: pointer;
 }
 
 /* hero */
-.hero{
+.hero {
   width: 100%;
-  height:100vh;
+  height: 100vh;
   display: flex;
-
-
+  flex-direction: column;
 }
-.hero .judulhero{
-  position:absolute;
-}
-.hero .gambar img{
+.hero .gambar {
   width: 100%;
-  height: 90%;
+  height: 85vh;
+  position: relative;
 }
- 
+.hero .gambar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+img::after {
+  content: "";
+  position: relative;
+  inset: 0;
+  background: linear-gradient(to left, rgba(0, 0, 0, 1));
+}
+.hero .judulhero {
+  position: absolute;
+  text-align: left;
+  top: 25%;
+  left: 7%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero .judulhero .tbl {
+  display: flex;
+  gap: 30px;
+}
