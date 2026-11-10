@@ -234,7 +234,7 @@ nav .tbl {
   font-family: "Asap Sharp", sans-serif;
   font-size: 30px;
 }
-.deskripsi p{
+.deskripsi p {
   color: var(--black);
   font-family: "Asap Sharp", sans-serif;
   font-size: 16px;
@@ -246,7 +246,130 @@ nav .tbl {
 }
 .deskripsi .tbl a {
   border-radius: 20px;
-  color :white;
+  color: white;
   background-color: var(--hijau);
   padding: 10px 20px;
 }
+
+/* Program unggulan */
+.program {
+  width: 100%;
+  height: 70vh;
+  background-color: #c8f4c4;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 6%;
+}
+.program .jdl1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.program .jdl1 h3 {
+  color: var(--hijau);
+  font-family: "Asap Sharp", sans-serif;
+  font-weight: 400;
+}
+.jdl1 h2 {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 35px;
+}
+.jdl1 p {
+  color: var(--black);
+  width: 600px;
+}
+
+.program .cards {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+.program .cards .card {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.program .cards .card i {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 100px;
+  background: var(--hijau);
+  color: white;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.program .cards .card h4 {
+  font-size: 18px;
+  font-family: "Asap Sharp", sans-serif;
+}
+.program .cards .card p {
+  font-size: 14px;
+  font-family: "Asap Sharp", sans-serif;
+}
+
+/* Aktivitas santri */
+.ak {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  padding: 50px 6%;
+}
+.ak .jdl_ak {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ak .jdl_ak h3 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Asap Sharp", sans-serif;
+  color: var(--hijau);
+}
+.ak .jdl_ak h2 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Asap Sharp", sans-serif;
+  color: var(--black);
+}
+.ak .jdl_ak p {
+  font-weight: 400;
+  font-family: "Asap Sharp", sans-serif;
+  color: var(--black);
+  line-height: 1.6;
+  width: 500px;
+}
+.ak .jdl_ak a {
+  background-color: var(--hijau);
+  width: 190px;
+  padding: 8px;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Asap Sharp", sans-serif;
+  font-size: 12px;
+}
+.ak .galeri .foto1 {
+  width: 80px;
+  height: 80px;
+}
+.ak .galeri .foto1 img {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* atur foto kegiatan */
