@@ -1,0 +1,16 @@
+<!-- logo -->
+        
+        <!-- keterangan 1 -->
+        <div class="info">
+          <div class="ket1">
+            
+          </div>
+          <!-- keterangan 2 -->
+          <div class="ket2">
+            
+          </div>
+          <!-- keterangan 3 -->
+          <div class="ket3">
+            
+          </div>
+        </div>
