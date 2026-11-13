@@ -38,7 +38,6 @@ nav {
 }
 nav .logo {
   display: flex;
-  
 }
 nav .logo img {
   width: 200px;
@@ -48,12 +47,14 @@ nav .logo img {
 }
 nav .menus {
   width: 50%;
+  position: relatif;
 }
 nav .menus .menu {
   display: flex;
   gap: 30px;
 }
 nav .menus .menu a {
+  display: block;
   font-family: "Asap Sharp", sans-serif;
   color: #333;
   position: relative;
@@ -75,7 +76,7 @@ nav .tbl {
   cursor: pointer;
 }
 /* animasi menus */
-nav .menus .menu a::after  {
+nav .menus .menu a::after {
   content: "";
   position: absolute;
   border-bottom: 2px solid var(--hijau);
@@ -85,8 +86,7 @@ nav .menus .menu a::after  {
   transition: 0.3s ease-in-out;
 }
 nav .menus .menu a:hover::after {
-   width: 100%;
-  
+  width: 100%;
 }
 
 /* hero */
@@ -571,4 +571,46 @@ footer .sosmed .info .ket3 .icons {
   font-size: 20px;
   display: flex;
   gap: 30px;
+}
+
+/* media screen */
+
+/* untuk handphone */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  /* awal media hape */
+
+  nav .logo img {
+    width: 80px;
+    height: 50px;
+  }
+  nav .menus {
+    position: absolute;
+    right: -400px;
+  }
+
+  nav .tbl {
+    width: 120px;
+    font-size: 12px;
+  }
+
+  /* alkhie media hape */
+}
+
+/* Tablet besar */
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+  nav .logo img {
+    width: 90px;
+    height: 50px;
+  }
+  nav .menus {
+    /* background-color: var(--black); */
+    width: 60%;
+  }
+  nav .menus .menu a {
+    font-size: 14px;
+  }
+  nav .tbl {
+    width: 120px;
+    font-size: 12px;
+  }
 }
